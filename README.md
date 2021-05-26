@@ -1,7 +1,108 @@
-<h1>CLI utility that displays files and directories at the specified path</h1>
-<h2>Installation</h2>
-<ol>
-  <li>Download source code</li>
-  <li>Type <code>mvn install</code></li>
-  <li>Enjoy it!</li>
-</ol>
+# CLI utility that displays files and directories at the specified path</h1>
+## Installation
+  1. Download source code
+  1. Type `mvn install`
+  1. Enjoy it!
+
+## Usage example
+```
+java -jar fstree-1.0.jar C:\Maven\
+    bin
+            m2.conf
+            mvn
+            mvn.cmd
+            mvnDebug
+            mvnDebug.cmd
+            mvnyjp
+    boot
+            plexus-classworlds-2.6.0.jar
+            plexus-classworlds.license
+    conf
+            logging
+                simplelogger.properties
+            settings.xml
+            toolchains.xml
+    lib
+            ext
+                README.txt
+            jansi-native
+                freebsd32
+                    libjansi.so
+                freebsd64
+                    libjansi.so
+                linux32
+                    libjansi.so
+                linux64
+                    libjansi.so
+                osx
+                    libjansi.jnilib
+                windows32
+                    jansi.dll
+                windows64
+                    jansi.dll
+                README.txt
+            cdi-api-1.0.jar
+            cdi-api.license
+            commons-cli-1.4.jar
+            commons-cli.license
+            commons-io-2.5.jar
+            commons-io.license
+            commons-lang3-3.8.1.jar
+            commons-lang3.license
+            guava-25.1-android.jar
+            guava.license
+            guice-4.2.1-no_aop.jar
+            guice.license
+            jansi-1.17.1.jar
+            jansi.license
+            javax.inject-1.jar
+            javax.inject.license
+            jcl-over-slf4j-1.7.29.jar
+            jcl-over-slf4j.license
+            jsoup-1.12.1.jar
+            jsoup.license
+            jsr250-api-1.0.jar
+            jsr250-api.license
+            maven-artifact-3.8.1.jar
+            maven-builder-support-3.8.1.jar
+            maven-compat-3.8.1.jar
+            maven-core-3.8.1.jar
+            maven-embedder-3.8.1.jar
+            maven-model-3.8.1.jar
+            maven-model-builder-3.8.1.jar
+            maven-plugin-api-3.8.1.jar
+            maven-repository-metadata-3.8.1.jar
+            maven-resolver-api-1.6.2.jar
+            maven-resolver-connector-basic-1.6.2.jar
+            maven-resolver-impl-1.6.2.jar
+            maven-resolver-provider-3.8.1.jar
+            maven-resolver-spi-1.6.2.jar
+            maven-resolver-transport-wagon-1.6.2.jar
+            maven-resolver-util-1.6.2.jar
+            maven-settings-3.8.1.jar
+            maven-settings-builder-3.8.1.jar
+            maven-shared-utils-3.2.1.jar
+            maven-slf4j-provider-3.8.1.jar
+            org.eclipse.sisu.inject-0.3.4.jar
+            org.eclipse.sisu.inject.license
+            org.eclipse.sisu.plexus-0.3.4.jar
+            org.eclipse.sisu.plexus.license
+            plexus-cipher-1.7.jar
+            plexus-cipher.license
+            plexus-component-annotations-2.1.0.jar
+            plexus-component-annotations.license
+            plexus-interpolation-1.25.jar
+            plexus-interpolation.license
+            plexus-sec-dispatcher-1.4.jar
+            plexus-sec-dispatcher.license
+            plexus-utils-3.2.1.jar
+            plexus-utils.license
+            slf4j-api-1.7.29.jar
+            slf4j-api.license
+            wagon-file-3.4.3.jar
+            wagon-http-3.4.3-shaded.jar
+            wagon-provider-api-3.4.3.jar
+    LICENSE
+    NOTICE
+    README.txt
+```
